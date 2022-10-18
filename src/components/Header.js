@@ -4,23 +4,29 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
-import styles from "../styles/Color.css";
 
 const Header = () => {
   return (
-    <Container className={styles.colorBGBlack} fluid>
-      <Row className={styles.colorGray}>
-        <Col xs={2}>
-          <Link to="/">
-            <Image src="./bg.png" fluid></Image>
+    <Container style={{ backgroundColor: "#000000" }} fluid>
+      <Row style={{ color: "#b7b7b7", maxHeight: "10vh" }}>
+        <Col className="w-100 m-1">
+          <Link className="a" to="/">
+            <Image src="./bgScaled.png"></Image>
           </Link>
         </Col>
-        <Col xs={4}></Col>
-        <Col class="d-flex justify-content-around" xs={6}>
-          <Link to="/">Home</Link>
-          <Link to="/skills">Skills</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact Me</Link>
+        <Col class="d-flex align-items-center w-50 justify-content-around">
+          <Link className="a" to="/">
+            Home
+          </Link>
+          <Link className="a" to="/skills">
+            Skills
+          </Link>
+          <Link className="a" to="/projects">
+            Projects
+          </Link>
+          <Link className="a" to="/contact">
+            Contact Me
+          </Link>
         </Col>
       </Row>
     </Container>

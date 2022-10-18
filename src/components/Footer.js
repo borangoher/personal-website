@@ -10,7 +10,7 @@ const Footer = () => {
     <Container style={{ backgroundColor: "#000000" }} fluid>
       <Row
         className="align-items-center"
-        style={{ color: "#b7b7b7", maxHeigth: "100%" }}
+        style={{ color: "#b7b7b7", minHeigth: "12vh" }}
         xs={1}
       >
         <Col text-start xs={3}>

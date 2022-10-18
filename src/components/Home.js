@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import "../styles/styleStd.css";
@@ -10,10 +9,10 @@ const Home = () => {
   return (
     <Container
       style={{
-        backgroundColor: "#b7b7b7",
-        color: "#000000",
+        backgroundColor: "#000000",
+        color: "#b7b7b7",
         fontSize: "1.7rem",
-        minHeight: "80vh",
+        minHeight: "81.8vh",
       }}
       className="align-items-center justify-content-center pt-5"
       fluid
@@ -37,17 +36,17 @@ const Home = () => {
         className="d-flex justify-content-around mt-4"
       >
         <Link to="./skills">
-          <Button variant="secondary" size="lg">
+          <Button className="m-1" variant="secondary" size="lg">
             My Skills
           </Button>
         </Link>
         <Link to="./projects">
-          <Button variant="secondary" size="lg">
+          <Button className="m-1" variant="secondary" size="lg">
             My Projects
           </Button>
         </Link>
         <Link to="./contacct">
-          <Button variant="secondary" size="lg">
+          <Button className="m-1" variant="secondary" size="lg">
             Contact Me!
           </Button>
         </Link>

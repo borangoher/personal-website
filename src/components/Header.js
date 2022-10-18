@@ -8,13 +8,15 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Container style={{ backgroundColor: "#000000" }} fluid>
-      <Row style={{ color: "#b7b7b7", minHeight: "11vh" }}>
+      <Row
+        style={{
+          color: "#b7b7b7",
+          minHeight: "11vh",
+        }}
+      >
         <Col className="w-50 m-2">
           <Link className="a" to="/">
-            <Image
-              className="border border-secondary b-2"
-              src="./bgScaled.png"
-            ></Image>
+            <Image src="./bgScaled.png"></Image>
           </Link>
         </Col>
         <Col class="d-flex align-items-center w-50 justify-content-around">
@@ -32,6 +34,7 @@ const Header = () => {
           </Link>
         </Col>
       </Row>
+      <Row className="separador" />
     </Container>
   );
 };

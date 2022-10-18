@@ -9,27 +9,42 @@ const Footer = () => {
   return (
     <Container style={{ backgroundColor: "#000000" }} fluid>
       <Row
-        className="align-items-center"
-        style={{ color: "#b7b7b7", minHeigth: "12vh" }}
+        className="align-items-center pb-1"
+        style={{ color: "#b7b7b7", minHeigth: "11vh" }}
         xs={1}
       >
         <Col text-start xs={3}>
           Contact Me!
         </Col>
-        <Col text-end xs={5}>
-          <a className="a" href="mailto: boran.goher@boun.edu.tr">
+        <Col xs={4} />
+        <Col className="d-flex justify-content-center" xs={3}>
+          <a
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+              marginRight: "3vw",
+            }}
+            className="a"
+            href="mailto: boran.goher@boun.edu.tr"
+          >
             boran.goher@boun.edu.tr
           </a>
         </Col>
-        <Col xs={2}>
-          <a className="a" href="linkedin.com/in/boran.goher">
-            <Image className="m-1" src="./linkedinScaled.png" fluid></Image>
-          </a>
-        </Col>
-        <Col xs={2}>
-          <a href="github.com/borangoher">
+        <Col xs={1}>
+          <a className="a" href="www.linkedin.com/in/boran.goher">
             <Image
               className="m-1"
+              roundedCircle
+              src="./linkedinScaled.png"
+              fluid
+            ></Image>
+          </a>
+        </Col>
+        <Col xs={1}>
+          <a className="a" href="www.github.com/borangoher">
+            <Image
+              className="mb-1"
+              roundedCircle
               style={{ backgroundColor: "#b7b7b7" }}
               src="./githubScaled.png"
               fluid

@@ -16,8 +16,8 @@ const Footer = () => {
         <Col text-start xs={3}>
           Contact Me!
         </Col>
-        <Col xs={4} />
-        <Col className="d-flex justify-content-center" xs={3}>
+        <Col xs={3} />
+        <Col className="d-flex justify-content-center" xs={4}>
           <a
             style={{
               display: "flex",

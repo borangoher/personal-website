@@ -1,0 +1,15 @@
+{
+  "short_name": "Boran Göher",
+  "name": "Boran Göher, Fullstack Developer",
+  "icons": [
+    {
+      "src": "bg.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import "../styles/styleStd.css";
 import SkillTable from "./SkillTable";
 
-const Home = () => {
+const Skills = () => {
   return (
     <Container
       style={{
@@ -58,4 +58,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Skills;

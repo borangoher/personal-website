@@ -1,7 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
 import "../styles/styleStd.css";
 
@@ -19,13 +21,18 @@ const Home = () => {
     >
       <Row
         className="p-2 text-center"
-        style={{ position: "relative", left: "20vw", width: "60vw" }}
+        style={{ position: "relative", left: "10vw", width: "80vw" }}
       >
-        Hi! I'm Boran Göher, a Fullstack Web Developer and a fourth year
-        Electrical & Electronics Engineering student at Boğaziçi University. I
-        mainly work with React.js and Express, but you can find a full list of
-        my skills by clicking the button below. You can also check out my
-        projects or find my contact info if you wish.
+        <Col>
+          <Image src="./bgPhoto.jpg"></Image>
+        </Col>
+        <Col>
+          Hi! I'm Boran Göher, a Fullstack Web Developer and a fourth year
+          Electrical & Electronics Engineering student at Boğaziçi University. I
+          mainly work with React.js and Express, but you can find a full list of
+          my skills by clicking the button below. You can also check out my
+          projects or find my contact info if you wish.
+        </Col>
       </Row>
       <Row
         style={{

@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Placeholder from "./components/Placeholder";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Placeholder />} />
+        <Route path="/projects" element={<Project />} />
         <Route path="/contact" element={<Placeholder />} />
       </Routes>
       <Footer></Footer>

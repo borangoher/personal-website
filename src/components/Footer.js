@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </Col>
         <Col xs={1}>
-          <a className="a" href="www.linkedin.com/in/boran.goher">
+          <a className="a" href="https://www.linkedin.com/in/boran.goher">
             <Image
               className="m-1"
               roundedCircle
@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </Col>
         <Col xs={1}>
-          <a className="a" href="www.github.com/borangoher">
+          <a className="a" href="https://www.github.com/borangoher">
             <Image
               className="mb-1"
               roundedCircle

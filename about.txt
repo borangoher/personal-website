@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Rosario
+- Font Author: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
+- Font Source: https://fonts.gstatic.com/s/rosario/v31/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

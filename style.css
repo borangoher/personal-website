@@ -1,22 +1,27 @@
 body {
   margin: 0;
-  background-color: #DDD;
-  font-size: 1.5rem;
+  background-color: var(--color-4);
+  color: var(--color-1);
   font-family: "Roboto", sans-serif;
+
+  --color-1: #624E88;
+  --color-2: #8967B3;
+  --color-3: #CB80AB;
+  --color-4: #E6D9A2;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  background-color: var(--color-3);
 }
 
 ul {
   display: flex;
-  gap: 1.5rem;
-  font-size: 2.5rem;
+  gap: 2rem;
+  font-size: 2rem;
 }
 
 li {
@@ -24,13 +29,13 @@ li {
  }
 
 img#header-logo {
-  width: 4vw;
+  width: 3vw;
   margin-right: 3rem;
 }
 
 a {
+  color: var(--color-2);
   text-decoration: none;
-  color: darkgreen;
   font-weight: 500;
   font-style: italic;
 }
@@ -38,6 +43,7 @@ a {
 li > a {
   font-weight: 700;
   font-style: normal;
+  color: var(--color-4);
 }
 
 main {

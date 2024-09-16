@@ -10,6 +10,12 @@ body {
   --color-4: #E6D9A2;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -47,6 +53,7 @@ li > a {
 }
 
 main {
+  margin-top: 7rem;
   padding: 1rem;
 }
 
@@ -78,7 +85,16 @@ p {
 }
 
 p#mark-disclaimer {
-  margin-top: 2rem
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+p#mark-disclaimer > a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 p.mr-bottom {

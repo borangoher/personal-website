@@ -28,6 +28,7 @@ ul {
   display: flex;
   gap: 2rem;
   font-size: 2rem;
+  margin: 0;
 }
 
 li {
@@ -53,7 +54,7 @@ li > a {
 }
 
 main {
-  margin-top: 7rem;
+  margin-top: 5rem;
   padding: 1rem;
 }
 

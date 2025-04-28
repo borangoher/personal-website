@@ -5,10 +5,10 @@ body {
   color: var(--color-1);
   font-family: "Roboto", sans-serif;
 
-  --color-1: #624E88;
-  --color-2: #8967B3;
-  --color-3: #CB80AB;
-  --color-4: #E6D9A2;
+  --color-1: #9aa5ce;
+  --color-2: #bb9af7;
+  --color-3: #a9b1d6;
+  --color-4: #1a1b26;
 }
 
 a {
@@ -53,9 +53,10 @@ li > a {
   font-weight: 700;
   font-style: normal;
   color: var(--color-4);
+  text-decoration: underline;
 }
 
-/* main */ 
+/* main */
 main {
   margin-top: 5rem;
   padding: 1rem;

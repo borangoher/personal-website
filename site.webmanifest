@@ -1,21 +1,20 @@
 {
-  "name":"Boran Goher | Software Engineer",
-  "short_name":"Boran Goher",
-  "icons":
-    [
-      {
-      "src":".asssets/android-chrome-192x192.png",
-      "sizes":"192x192",
-      "type":"image/png"
-      },
-      {
-        "src":"./assets/android-chrome-512x512.png",
-        "sizes":"512x512",
-        "type":"image/png"
-      }
-    ],
-    "theme_color":"#624E88",
-    "background_color":"##E6D9A2",
-    "display":"standalone",
-    "description": "Personal website of Boran Goher"
+  "name": "Boran Goher | Software Engineer",
+  "short_name": "Boran Goher",
+  "icons": [
+    {
+      "src": ".asssets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#9aa5ce",
+  "background_color": "#1a1b26",
+  "display": "standalone",
+  "description": "Personal website of Boran Goher"
 }

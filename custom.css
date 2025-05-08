@@ -1,0 +1,20 @@
+:root {
+    color-scheme: dark;
+    --bg: #1a1b26; /* Dark blue-black background */
+    --accent-bg: #24283b; /* Slightly lighter blue-black for contrast areas */
+    --text: #a9b1d6; /* Soft blue-white for main text */
+    --text-light: #565f89; /* Muted blue-gray for secondary text */
+    --accent: #7aa2f7; /* Bright blue for primary accent/links */
+    --accent-hover: #bb9af7; /* Purple for hover states */
+    --accent-text: #1a1b26; /* Dark background for text on accent colors */
+    --code: #f7768e; /* Pink for code/syntax highlighting */
+    --preformatted: #9ece6a; /* Green for preformatted text blocks */
+    --disabled: #16161e; /* Darker blue for disabled elements */
+
+    img {
+        width: 64px;
+        left: 16px;
+        position: absolute;
+        margin-top: -16px;
+    }
+}

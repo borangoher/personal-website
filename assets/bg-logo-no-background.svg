@@ -34,9 +34,6 @@
     </radialGradient>
   </defs>
   
-  <!-- Background with vignette -->
-  <rect x="140" y="145" width="400" height="190" fill="url(#vignette)"/>
-  
   <g filter="url(#warmGlow)">
     <!-- Bottom horizontal line -->
     <line x1="160" y1="315" x2="340" y2="315" 

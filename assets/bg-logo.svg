@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="140 145 400 190" xmlns="http://www.w3.org/2000/svg">
+  <title>bg Logo</title>
+  <desc>The primary version of the bg logo, to be used across the web.</desc>
+  
+  <defs>
+    <!-- Warm glow filter -->
+    <filter id="warmGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 0.8 0 0 0
+        0 0 0.5 0 0
+        0 0 0 0.25 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Gradient for metallic brass - radial from center -->
+    <radialGradient id="brassGradient" gradientUnits="userSpaceOnUse" cx="340" cy="240" r="180">
+      <stop offset="0%" style="stop-color:#B89968;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7A6A4F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A4A35;stop-opacity:1" />
+    </radialGradient>
+
+    
+    <!-- Radial gradient for vignette -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#1A1A1C;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#0A0A0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with vignette -->
+  <rect x="140" y="145" width="400" height="190" fill="url(#vignette)"/>
+  
+  <g filter="url(#warmGlow)">
+    <!-- Bottom horizontal line -->
+    <line x1="160" y1="315" x2="340" y2="315" 
+          stroke="url(#brassGradient)" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+    
+    <!-- Central circle -->
+    <circle cx="340" cy="255" r="60" 
+            fill="none" 
+            stroke="url(#brassGradient)" 
+            stroke-width="2.5"/>
+    
+    <!-- Top horizontal line -->
+    <line x1="340" y1="195" x2="520" y2="195" 
+          stroke="url(#brassGradient)" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+    
+    <!-- Arc (half-circle) -->
+    <path d="M 520 195 A 60 60 0 0 1 400 195" 
+          fill="none" 
+          stroke="url(#brassGradient)" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+    
+    <!-- Vertical line -->
+    <line x1="400" y1="195" x2="400" y2="165" 
+          stroke="url(#brassGradient)" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+  </g>
+</svg>
